@@ -7,13 +7,13 @@ title = Giveaway App
 package.name = giveawayapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = com.solotech.app
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas, ttf
+source.include_exts = py,png,jpg,kv,atlas,
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3==3.7.6,hostpython3==3.7.6, kivy,kivymd,os,time
+requirements = python3,kivy,os,time
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -64,10 +64,8 @@ orientation = portrait
 # author = © Copyright Info
 
 # change the major version of python used by the app
-osx.python_version = 3.7.6
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
 
 #
 # Android specific
